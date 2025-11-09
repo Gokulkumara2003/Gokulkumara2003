@@ -1,0 +1,152 @@
+package basicweb;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class gk {
+	 
+WebDriver driver;
+	
+	@Before
+	public void setup() throws InterruptedException {
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\gokul\\Downloads\\chromedriver-win64 (new)\\chromedriver-win64\\chromedriver.exe");
+		
+	    driver=new ChromeDriver();
+		driver.get("https://www.khelmart.com");
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		System.out.println("test 1 :website displayed");
+
+	}
+	@Test
+	public void test() throws InterruptedException {
+		//To accept all cookies
+		//driver.findElement(By.xpath("/html/body/div[9]/div[2]/div[3]/button[1]")).click();
+		//Thread.sleep(2000);
+		//System.out.println("test 2 :to accept the cookies");
+		//driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[4]/div/nav/div/ul/div/li/button/span/svg")).click();
+		//Thread.sleep(2000);
+		//driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]")).click();
+		//Thread.sleep(2000);
+		 
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[1]/div/div/div/div[3]/div/ul/li[2]/div/a/span[2]")).click();
+		Thread.sleep(2000);
+		System.out.println("test 2:sign in button");
+		driver.findElement(By.xpath("//*[@id=\"email-669e3e4b4e248\"]")).sendKeys("agokulkumar1@gmail.com");
+		Thread.sleep(2000);
+		System.out.println("test 3:email  button");
+		driver.findElement(By.xpath("/html/body/div[2]/div[8]/div/div/div[1]/div[1]/div/div/form/div[2]/div/input")).sendKeys("Sriharidwarna51");
+		Thread.sleep(2000);
+		System.out.println("test 4:password");
+		driver.findElement(By.xpath("/html/body/div[2]/div[8]/div/div/div[1]/div[1]/div/div/form/div[4]/div[1]/button")).click();
+		Thread.sleep(2000);
+		System.out.println("test 5:signin successfull");
+		
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[2]/div/div/div/div/nav/div/div[1]/ul[1]/li[1]/a/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 6 :to click on team sports");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[2]/div/div/div/div/nav/div/div[1]/ul[1]/li[2]/a/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 7 :to click on racket sports");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[2]/div/div/div/div/nav/div/div[1]/ul[1]/li[3]/a/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 8:custom made bat");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[2]/div/div/div/div/nav/div/div[1]/ul[1]/li[4]/a/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 9 :to click on other sports");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[2]/div/div/div/div/nav/div/div[1]/ul[1]/li[5]/a/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 10 :to click on  sports shoes");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[2]/div/div/div/div/nav/div/div[1]/ul[1]/li[7]/a/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 11:click on guide");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[2]/div/div/div/div/nav/div/div[1]/ul[1]/li[8]/a/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 12 :to click on contact us");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[2]/div/div/div/div/nav/div/div[1]/ul[1]/li[9]/a/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 13 :to click resources");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[1]/div/div/div/div[2]/div[1]/div/div/div[2]/form/div[1]/div/input")).sendKeys("cricket bat");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[1]/div/div/div/div[2]/div[1]/div/div/div[2]/form/div[2]/button")).click();
+		Thread.sleep(2000);
+		System.out.println("test 14 :to search for cricket bat ");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[1]/div[2]/div/div[2]/ol/li[1]/div/div[2]/div/div[3]/div/div/div[1]/form/button/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 15: add to cart cricket bat");
+		
+		driver.findElement(By.xpath("/html/body/div[11]/aside/div[2]/div/div/div/div[1]/div/div[1]/div/div[3]/div/div[4]/div/button[1]/span")).click();
+		Thread.sleep(2000);
+		System.out.println("test 16:to continue shopping");
+		
+		//driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[1]/div[2]/div/div[2]/ol/li[1]/div/div[1]/div/a[1]")).click();
+		//Thread.sleep(2000);
+		//System.out.println("test 17: adding to favourites");
+		
+		
+				
+		driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[1]/div[2]/div/div[2]/ol/li[1]/div/div[1]/div/a[2]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/div[3]/main/div[3]/div[3]/div[2]/div[2]/div/div[1]/a")).click();
+		System.out.println("test 17:to compare  on things");
+		
+		driver.findElement(By.xpath("/html/body/div[2]/header/div/div/div[1]/div/div/div/div[3]/div/ul/li[1]/div/a")).click();
+		Thread.sleep(2000);
+		System.out.println("test 18:to check  on favourites");
+
+		
+       // driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[1]/div[2]/div/div[2]/ol/li[1]/div/div[1]/div/div/a")).click();
+        //Thread.sleep(2000);
+        //System.out.println("test 20:quick eye");
+        
+        driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/ul/li[1]")).click();
+        Thread.sleep(2000);
+        System.out.println("test 19:return and refund policy");
+        
+        driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/ul/li[3]/a")).click();
+        Thread.sleep(2000);
+        System.out.println("test 20:to track ordeer");
+		
+        driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[2]/div/div[2]/ul/li[3]/a")).click();
+        Thread.sleep(2000);
+        System.out.println("test 21:documentable products");
+        
+        driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[2]/div/div[2]/ul/li[4]/a")).click();
+        Thread.sleep(2000);
+        System.out.println("test 22: wishlist ");
+        
+        driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[2]/div/div[2]/ul/li[12]/a")).click();
+        Thread.sleep(2000);
+        System.out.println("test 23:my returns");
+        
+        driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[2]/div/div[2]/ul/li[10]/a")).click();
+        Thread.sleep(2000);
+        System.out.println("test 24:product review");
+        
+        driver.findElement(By.xpath("/html/body/div[2]/main/div[3]/div[2]/div/div[2]/ul/li[13]/a")).click();
+        Thread.sleep(2000);
+        System.out.println("test 25:my product questions");
+        
+        
+	}
+
+
+}
+
