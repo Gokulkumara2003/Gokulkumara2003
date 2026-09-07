@@ -20,14 +20,14 @@ B.E. graduate in Computer Science Engineering with experience building real-time
 ## Stuff I know:
 
 <p id="tech-stack">
-  <img src="https://githubusercontent.com" alt="java" width="60" height="60"/>
-  <img src="https://githubusercontent.com" alt="SpringBoot" width="60" height="60"/>
-  <img src="https://githubusercontent.com" alt="python" width="60" height="60"/>
-  <img src="https://githubusercontent.com" alt="mysql" width="60" height="60"/>
-  <img src="https://githubusercontent.com" alt="javascript" width="60" height="60"/>
+  <img src="https://skillicons.dev" alt="java" width="60" height="60"/>&nbsp;
+  <img src="https://skillicons.dev" alt="spring" width="60" height="60"/>&nbsp;
+  <img src="https://skillicons.dev" alt="python" width="60" height="60"/>&nbsp;
+  <img src="https://skillicons.dev" alt="mysql" width="60" height="60"/>&nbsp;
+  <img src="https://skillicons.dev" alt="javascript" width="60" height="60"/>
   <br/><br/>
-  <img src="https://githubusercontent.com" alt="react" width="60" height="60"/>
-  <img src="https://githubusercontent.com" alt="PostgreSQL" width="60" height="60"/>
-  <img src="https://githubusercontent.com" alt="linux" width="60" height="60"/>
-  <img src="https://githubusercontent.com" alt="git" width="60" height="60"/>
+  <img src="https://skillicons.dev" alt="react" width="60" height="60"/>&nbsp;
+  <img src="https://skillicons.dev" alt="docker" width="60" height="60"/>&nbsp;
+  <img src="https://skillicons.dev" alt="linux" width="60" height="60"/>&nbsp;
+  <img src="https://skillicons.dev" alt="git" width="60" height="60"/>
 </p>
