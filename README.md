@@ -8,13 +8,10 @@ B.E. graduate in Computer Science Engineering with experience building real-time
   <a href="mailto:agokulkumar1@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/in/gokulkumara/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://discord.com/">
-    <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord"/>
-  </a>
-  <a href="https://github.com/">
+  <a href="https://github.com/Gokulkumara2003">
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
